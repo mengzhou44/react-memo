@@ -1,0 +1,22 @@
+{
+     "extends": [
+        "config:base"
+      ],
+      "prHourlyLimit": 0,
+      "branchPrefix": "renovate-",
+      "dependencyDashboard": true,
+      "vulnerabilityAlerts": {
+        "groupName": null,
+        "schedule": [
+          "schedule:nonOfficeHours"
+        ],
+        "dependencyDashboardApproval": false,
+        "stabilityDays": 0,
+        "commitMessageSuffix": "[SECURITY]",
+        "commitMessagePrefix": "Fix:",
+        "prCreation": "immediate",
+        "labels": [
+          "SECURITY"
+        ]
+      },
+}
