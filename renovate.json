@@ -1,20 +1,11 @@
 {
-     "extends": [
-        "config:base"
-      ],
-      "prHourlyLimit": 0,
-      "branchPrefix": "renovate-",
-      "dependencyDashboard": true,
-      "vulnerabilityAlerts": {
-        "groupName": null,
-        "schedule": null,
-        "dependencyDashboardApproval": false,
-        "stabilityDays": 0,
-        "commitMessageSuffix": "[SECURITY]",
-        "commitMessagePrefix": "Fix:",
-        "prCreation": "immediate",
-        "labels": [
-          "SECURITY"
-        ]
-      }
+  "extends": ["config:base"],
+  "prHourlyLimit": 0,
+  "branchPrefix": "renovate-",
+  "dependencyDashboard": true,
+  "vulnerabilityAlerts": {
+    "enabled": "true",
+    "prCreation": "immediate",
+    "labels": ["SECURITY"]
+  }
 }
