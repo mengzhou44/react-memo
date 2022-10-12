@@ -7,9 +7,7 @@
       "dependencyDashboard": true,
       "vulnerabilityAlerts": {
         "groupName": null,
-        "schedule": [
-          "schedule:nonOfficeHours"
-        ],
+        "schedule": null,
         "dependencyDashboardApproval": false,
         "stabilityDays": 0,
         "commitMessageSuffix": "[SECURITY]",
@@ -18,5 +16,5 @@
         "labels": [
           "SECURITY"
         ]
-      },
+      }
 }
